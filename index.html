@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reasons for Not Voting in the 2020 US Election By Age Range</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        svg {
+            font: 12px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            font-size: 12px;
+        }
+
+        .legend-item {
+            cursor: pointer;
+        }
+
+        .legend-item rect {
+            stroke: #000;
+            stroke-width: 1px;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            pointer-events: none;
+            font-size: 12px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reasons for Not Voting in the 2020 US Election By Age Range</h1>
+    <p>Click on legend items to toggle reasons in the chart.</p>
+
+    <!-- Tooltip for interactivity -->
+    <div class="tooltip" id="tooltip"></div>
+
+    <!-- D3.js Library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <!-- D3.js Visualization Script -->
+    <script src="main.js"></script>
+</body>
+</html>
