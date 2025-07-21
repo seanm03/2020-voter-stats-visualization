@@ -1,1 +1,0 @@
-To run this visualization, run index.html on a local server, much like how the labs in this class are ran.
